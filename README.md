@@ -4,6 +4,14 @@ This repository contains code for solving the technical test for GFT Technical T
 
 # 2 - Run instructions
 
+## 2.1 With Docker
+For running this application we can use Docker Compose:
+
+   ```
+   docker compose up
+   ```
+
+## 2.1 Manually
 > For running this application we use Gradle in version `8.5` and its wrapper (Java 21 is needed).
 
 1. We can easily run the application on port `8080` (if needed to change the port it can be
@@ -29,7 +37,13 @@ The tests are executed in the GitHub pipelines as well:
 
 [GitHub Actions](https://github.com/barjola/gft-test/actions)
 
-# 4 - Endpoints
+# 4 - OpenApi Specification
+
+The API for this application is defined using the OpenAPI specification. 
+
+The [openapi.yaml](specification/openapi.yml) file contains the complete API definition.
+
+# 5 - Endpoints
 
 On the top of the application I put [Springdoc Open API UI](https://github.com/springdoc/springdoc-openapi) to provide
 a user-friendly UI for testing our endpoints.

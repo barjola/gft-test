@@ -1,7 +1,7 @@
 package com.gft.test.utils;
 
-import com.gft.test.domain.entity.Price;
 import com.gft.test.domain.model.PriceModel;
+import com.gft.test.infrastructure.out.repository.entity.Price;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

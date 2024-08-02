@@ -1,4 +1,4 @@
-package com.gft.test.domain.entity;
+package com.gft.test.infrastructure.out.repository.entity;
 
 
 import jakarta.persistence.*;

@@ -1,7 +1,7 @@
 package com.gft.test.application.usecases;
 
 import com.gft.test.domain.exception.PriceNotFoundException;
-import com.gft.test.infrastructure.out.repository.PriceJpaRepository;
+import com.gft.test.infrastructure.out.repository.jpa.PriceJpaRepository;
 import com.gft.test.infrastructure.out.repository.mapper.PriceMapper;
 import com.gft.test.utils.MockUtils;
 import org.junit.jupiter.api.Test;

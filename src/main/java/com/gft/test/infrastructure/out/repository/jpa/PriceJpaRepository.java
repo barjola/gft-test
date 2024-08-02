@@ -1,6 +1,6 @@
-package com.gft.test.infrastructure.out.repository;
+package com.gft.test.infrastructure.out.repository.jpa;
 
-import com.gft.test.domain.entity.Price;
+import com.gft.test.infrastructure.out.repository.entity.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
